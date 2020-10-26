@@ -27,6 +27,10 @@ img{
   padding: 10px;
   height: 40vh;
   width: auto;
+  animation-name: move;
+  Animation-delay : 2s;
+  Animation-duration : 3s;
+  Animation-iteration-count : infinite;
 }
 
 h1,h2{
@@ -99,18 +103,8 @@ h2{
   font-size: 10px;
 }
 
-div {
-  margin-left: 50px;
-  width: 200px;
-  height: 200px;
-  background-color: coral;
-  Animation-name : fade ;
-  Animation-delay : 2s;
-  Animation-duration : 3s;
-  Animation-iteration-count : infinite;
-}
 
-@keyframes fade {
+@keyframes move {
   From {
     Opacity : 1;
   }
