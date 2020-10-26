@@ -28,8 +28,8 @@ img{
   height: 40vh;
   width: auto;
   animation-name: move;
-  Animation-delay : 2s;
-  Animation-duration : 3s;
+  Animation-delay : 3s;
+  Animation-duration : 2s;
   Animation-iteration-count : infinite;
 }
 
