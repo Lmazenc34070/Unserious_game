@@ -75,3 +75,26 @@ h2{
 .btn{
   margin: 15px;
 }
+
+/** Attribution signature. **/
+.signature{
+  background-color: #222;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 150px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+/** Attribution du style au "a" dans signature. **/
+.signature a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 10px;
+}
