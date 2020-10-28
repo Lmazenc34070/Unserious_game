@@ -2,12 +2,12 @@
  * index.scss
  * - Add any styles you want here!
  */
- @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+ @import url(https://fonts.googleapis.com/css?family=Syne+Mono);
 
  body {
   background: url(https://cdn.wallpapersafari.com/93/26/Stkyof.gif);
   color: rgb(250, 253, 247);
-  font: italic small-caps bold 16px/2 cursive;
+  font-family:'Syne mono', 'cursive';
   background-repeat: no-repeat;
   background-size: cover;
 
